@@ -16,9 +16,10 @@ This project is an HR Resource Query Chatbot that:
 
 - Query candidates by skills, projects, and experience (e.g., "Find Python developers with 3+ years experience.")
 - Retrieves and filters candidates intelligently from your database.
-- Uses Sentence Transformers for embeddings and Mistral LLM for responses.
+- Uses HuggingFaceEmbeddings via LangChain for embeddings.
+- Uses Mistral LLM via LangChain for structured, warm responses.
 - User-friendly Streamlit interface for HR teams.
-- REST API (FastAPI) for managing candidate data (GET, POST, PUT).
+- FastAPI for managing candidate data (GET, POST, PUT).
 - Language detection (English-only support currently).
 - Environment variable management with .env for Hugging Face API integration.
 
@@ -30,7 +31,7 @@ This project is an HR Resource Query Chatbot that:
 ├── data_base_api.py        # FastAPI endpoints for candidate management
 ├── candidates.json         # Candidate database (JSON)
 ├── .env                    # Environment variables (Hugging Face API key)
-├── requirements.txt        # Python dependencies
+├── req.txt        # Python dependencies
 └── README.md               # Project documentation
 
 ## Requirements
@@ -42,16 +43,15 @@ This project is an HR Resource Query Chatbot that:
 ## Installation
 
 1. Clone the repository:
-git clone https://github.com/your-username/hr-query-chatbot.git
+git clone https://github.com/Surajvijendra/HR-Resource_Query_Chatbot-.git
 cd hr-query-chatbot
 
 2. Create a virtual environment:
-python -m venv venv
-source venv/bin/activate       # On macOS/Linux
-venv\Scripts\activate          # On Windows
+conda create -p hr_env python=3.10
+conda activate hr_env/         # On Windows
 
 3. Install dependencies:
-pip install -r requirements.txt
+pip install -r req.txt
 
 4. Set up environment variables:
 Create a .env file with:
@@ -103,7 +103,7 @@ for interactive API testing.
 Stored in candidates.json, containing details like name, skills, projects, experience, and availability.
 
 2. Embeddings:
-Uses sentence-transformers/all-MiniLM-L6-v2 to embed candidate details and store in FAISS for efficient retrieval.
+Uses HuggingFaceEmbeddings via LangChain for embeddings, to embed candidate details and store in FAISS for efficient retrieval.
 
 3. LLM for Structured Responses:
 Uses Mistral 7B (TheBloke/Mistral-7B-Instruct-v0.1-GGUF) to generate human-like recommendations based on user queries.
@@ -122,26 +122,15 @@ User Query:
 
 Bot Response:
 "Based on your requirements for Python, FastAPI, and ML, I found excellent candidates:
-1) Alice – 4 years experience...
-2) Bob – 3 years experience...
-3) Charlie – 5 years experience...
+1) Rahul – 4 years experience...
+2) Naveen – 3 years experience...
+3) charan – 5 years experience...
 All have the technical depth and domain expertise you need. Would you like me to provide more details about their specific projects or check their availability for meetings?"
 
 ## Contributing
 
 If you wish to improve features (e.g., multilingual support, advanced ranking, admin dashboard), feel free to open a PR or issue.
 
-## License
-
-MIT License.
-Free to use, modify, and distribute with credit.
-
-## Future Improvements
-
-- Candidate ranking based on skills relevance.
-- Email notifications for candidate availability.
-- Admin authentication for secure candidate database management.
-- Multi-language support (currently English-only).
 
 ## Acknowledgements
 
