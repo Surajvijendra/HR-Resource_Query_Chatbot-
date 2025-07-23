@@ -1,0 +1,17 @@
+ipykernel
+langchain
+langchain-community
+faiss-cpu
+sentence-transformers
+transformers
+accelerate
+numpy
+pandas
+python-dotenv
+nbimporter
+streamlit
+fastapi
+uvicorn
+pydantic
+ctransformers
+langdetect

@@ -1,0 +1,452 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Aarav Patel",
+      "skills": [
+        "Python",
+        "React",
+        "AWS"
+      ],
+      "experience_years": 5,
+      "projects": [
+        "E-commerce Platform",
+        "Healthcare Dashboard"
+      ],
+      "availability": "available"
+    },
+    {
+      "id": 2,
+      "name": "Ananya Sharma",
+      "skills": [
+        "Python",
+        "ML",
+        "TensorFlow"
+      ],
+      "experience_years": 4,
+      "projects": [
+        "Medical Diagnosis System",
+        "Fraud Detection"
+      ],
+      "availability": "available"
+    },
+    {
+      "id": 3,
+      "name": "Vivaan Gupta",
+      "skills": [
+        "React Native",
+        "JavaScript",
+        "UI/UX"
+      ],
+      "experience_years": 2,
+      "projects": [
+        "Fitness App",
+        "Online Learning App"
+      ],
+      "availability": "available"
+    },
+    {
+      "id": 4,
+      "name": "Diya Reddy",
+      "skills": [
+        "AWS",
+        "Docker",
+        "Python"
+      ],
+      "experience_years": 6,
+      "projects": [
+        "Cloud Migration",
+        "DevOps Automation"
+      ],
+      "availability": "unavailable"
+    },
+    {
+      "id": 5,
+      "name": "Rohan Mehta",
+      "skills": [
+        "Python",
+        "Data Analysis",
+        "Pandas"
+      ],
+      "experience_years": 0,
+      "projects": [
+        "Student Analytics Project"
+      ],
+      "availability": "available"
+    },
+    {
+      "id": 6,
+      "name": "Kavya Nair",
+      "skills": [
+        "React",
+        "React Native",
+        "AWS"
+      ],
+      "experience_years": 3,
+      "projects": [
+        "Retail App",
+        "Edtech Platform"
+      ],
+      "availability": "available"
+    },
+    {
+      "id": 7,
+      "name": "Aditya Kumar",
+      "skills": [
+        "Docker",
+        "Kubernetes",
+        "AWS"
+      ],
+      "experience_years": 4,
+      "projects": [
+        "Containerized Microservices",
+        "Healthcare Pipelines"
+      ],
+      "availability": "available"
+    },
+    {
+      "id": 8,
+      "name": "Ishita Singh",
+      "skills": [
+        "Python",
+        "ML",
+        "PyTorch"
+      ],
+      "experience_years": 5,
+      "projects": [
+        "Cancer Detection",
+        "Healthcare Dashboard"
+      ],
+      "availability": "available"
+    },
+    {
+      "id": 9,
+      "name": "Ayaan Das",
+      "skills": [
+        "JavaScript",
+        "React",
+        "Node.js"
+      ],
+      "experience_years": 1,
+      "projects": [
+        "Event Booking Platform"
+      ],
+      "availability": "available"
+    },
+    {
+      "id": 10,
+      "name": "Saanvi Joshi",
+      "skills": [
+        "AWS",
+        "Python",
+        "Terraform"
+      ],
+      "experience_years": 7,
+      "projects": [
+        "Cloud Infrastructure",
+        "Healthcare APIs"
+      ],
+      "availability": "unavailable"
+    },
+    {
+      "id": 11,
+      "name": "Krishna Iyer",
+      "skills": [
+        "React Native",
+        "Firebase",
+        "UI/UX"
+      ],
+      "experience_years": 3,
+      "projects": [
+        "Travel App",
+        "Food Delivery App"
+      ],
+      "availability": "available"
+    },
+    {
+      "id": 12,
+      "name": "Meera Pillai",
+      "skills": [
+        "Python",
+        "Data Science",
+        "ML"
+      ],
+      "experience_years": 2,
+      "projects": [
+        "Customer Retention Prediction"
+      ],
+      "availability": "available"
+    },
+    {
+      "id": 13,
+      "name": "Arjun Verma",
+      "skills": [
+        "AWS",
+        "Docker",
+        "Node.js"
+      ],
+      "experience_years": 6,
+      "projects": [
+        "Healthcare Backend"
+      ],
+      "availability": "available"
+    },
+    {
+      "id": 14,
+      "name": "Riya Chopra",
+      "skills": [
+        "Python",
+        "TensorFlow",
+        "Keras"
+      ],
+      "experience_years": 1,
+      "projects": [
+        "Image Classification"
+      ],
+      "availability": "available"
+    },
+    {
+      "id": 15,
+      "name": "Manav Kapoor",
+      "skills": [
+        "React",
+        "React Native",
+        "AWS"
+      ],
+      "experience_years": 4,
+      "projects": [
+        "Banking App",
+        "Healthcare Mobile App"
+      ],
+      "availability": "available"
+    },
+    {
+      "id": 16,
+      "name": "Sneha Bhat",
+      "skills": [
+        "Python",
+        "Flask",
+        "SQL"
+      ],
+      "experience_years": 3,
+      "projects": [
+        "Inventory Management System"
+      ],
+      "availability": "available"
+    },
+    {
+      "id": 17,
+      "name": "Nikhil Rao",
+      "skills": [
+        "AWS",
+        "Docker",
+        "Python"
+      ],
+      "experience_years": 8,
+      "projects": [
+        "Cloud Cost Optimization",
+        "Healthcare Data Pipelines"
+      ],
+      "availability": "available"
+    },
+    {
+      "id": 18,
+      "name": "Tanvi Kulkarni",
+      "skills": [
+        "React Native",
+        "JavaScript",
+        "UX"
+      ],
+      "experience_years": 2,
+      "projects": [
+        "Social Networking App"
+      ],
+      "availability": "available"
+    },
+    {
+      "id": 19,
+      "name": "Siddharth Joshi",
+      "skills": [
+        "Python",
+        "ML",
+        "Scikit-learn"
+      ],
+      "experience_years": 0,
+      "projects": [
+        "Covid Data Analysis"
+      ],
+      "availability": "available"
+    },
+    {
+      "id": 20,
+      "name": "Priya Menon",
+      "skills": [
+        "AWS",
+        "Kubernetes",
+        "Terraform"
+      ],
+      "experience_years": 5,
+      "projects": [
+        "Cloud Deployment Automation"
+      ],
+      "availability": "unavailable"
+    },
+    {
+      "id": 21,
+      "name": "Yash Agarwal",
+      "skills": [
+        "Python",
+        "Django",
+        "SQL"
+      ],
+      "experience_years": 3,
+      "projects": [
+        "E-commerce Backend"
+      ],
+      "availability": "available"
+    },
+    {
+      "id": 22,
+      "name": "Pooja Desai",
+      "skills": [
+        "React",
+        "Node.js",
+        "AWS"
+      ],
+      "experience_years": 4,
+      "projects": [
+        "Online Learning Platform"
+      ],
+      "availability": "available"
+    },
+    {
+      "id": 23,
+      "name": "Harshad Bhatt",
+      "skills": [
+        "Docker",
+        "AWS",
+        "Python"
+      ],
+      "experience_years": 6,
+      "projects": [
+        "Healthcare Cloud Automation"
+      ],
+      "availability": "available"
+    },
+    {
+      "id": 24,
+      "name": "Lavanya Ghosh",
+      "skills": [
+        "React Native",
+        "Firebase",
+        "UX"
+      ],
+      "experience_years": 1,
+      "projects": [
+        "Health Tracker App"
+      ],
+      "availability": "available"
+    },
+    {
+      "id": 25,
+      "name": "Karan Nayak",
+      "skills": [
+        "Python",
+        "ML",
+        "PyTorch"
+      ],
+      "experience_years": 4,
+      "projects": [
+        "Predictive Maintenance"
+      ],
+      "availability": "available"
+    },
+    {
+      "id": 26,
+      "name": "Divya Shetty",
+      "skills": [
+        "React",
+        "JavaScript",
+        "UI/UX"
+      ],
+      "experience_years": 2,
+      "projects": [
+        "Job Portal Frontend"
+      ],
+      "availability": "available"
+    },
+    {
+      "id": 27,
+      "name": "Sagar Chatterjee",
+      "skills": [
+        "AWS",
+        "Python",
+        "Docker"
+      ],
+      "experience_years": 5,
+      "projects": [
+        "Cloud Data Pipelines"
+      ],
+      "availability": "available"
+    },
+    {
+      "id": 28,
+      "name": "Neha Sinha",
+      "skills": [
+        "Python",
+        "Data Analysis",
+        "Pandas"
+      ],
+      "experience_years": 0,
+      "projects": [
+        "Retail Sales Analysis"
+      ],
+      "availability": "available"
+    },
+    {
+      "id": 29,
+      "name": "Vikram Rathi",
+      "skills": [
+        "React Native",
+        "React",
+        "JavaScript"
+      ],
+      "experience_years": 3,
+      "projects": [
+        "Ride Sharing App"
+      ],
+      "availability": "available"
+    },
+    {
+      "id": 30,
+      "name": "Ankita Mukherjee",
+      "skills": [
+        "Python",
+        "Flask",
+        "ML"
+      ],
+      "experience_years": 2,
+      "projects": [
+        "Healthcare Chatbot"
+      ],
+      "availability": "available"
+    },
+    {
+      "id": 1221,
+      "name": "Suraj V",
+      "skills": [
+        "Python",
+        "AI",
+        "ML",
+        "NLP",
+        "AWS",
+        "GCP"
+      ],
+      "experience_years": 2,
+      "projects": [
+        "HR_BOT"
+      ],
+      "availability": "immediate"
+    }
+  ]
+}
